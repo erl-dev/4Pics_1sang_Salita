@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ERLSoft.FourPicsIsangSalita"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+20-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+21
+22    <uses-feature android:glEsVersion="0x00020000" />
+22-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-54
+22-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:19-51
+23    <uses-feature
+23-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-52
+25        android:required="false" />
+25-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-33
+26    <uses-feature
+26-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-63
+28        android:required="false" />
+28-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-33
+29    <uses-feature
+29-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-22:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-72
+31        android:required="false" />
+31-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-33
+32
+33    <uses-permission android:name="com.android.vending.BILLING" />
+33-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:10:5-67
+33-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:10:22-64
+34    <!--
+35    This has been added to conform with requirement from Android 11 (API level 30) onwards
+36    (http://screen/9iGdBMRWDmVbRJ6), after getting confirmation in http://yaqs/995038231927980032#a1
+37    -->
+38    <queries>
+38-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:16:5-20:15
+39        <intent>
+39-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:17:9-19:18
+40            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+40-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:18:13-91
+40-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:18:21-88
+41        </intent>
+42    </queries>
+43
+44    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+44-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:11:5-79
+44-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:11:22-76
+45
+46    <application
+46-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-121
+47        android:banner="@drawable/app_banner"
+47-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:81-118
+48        android:extractNativeLibs="true"
+48-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-41
+49        android:icon="@mipmap/app_icon"
+49-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+50        android:isGame="true"
+50-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-30
+51        android:label="@string/app_name" >
+51-->D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+52        <meta-data
+52-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-29:33
+53            android:name="unity.splash-mode"
+53-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-45
+54            android:value="0" />
+54-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-30
+55        <meta-data
+55-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-32:36
+56            android:name="unity.splash-enable"
+56-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-47
+57            android:value="True" />
+57-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-33
+58        <meta-data
+58-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-35:36
+59            android:name="unity.launch-fullscreen"
+59-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-51
+60            android:value="True" />
+60-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-33
+61        <meta-data
+61-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-38:37
+62            android:name="unity.allow-resizable-window"
+62-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-56
+63            android:value="False" />
+63-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-34
+64        <meta-data
+64-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-41:36
+65            android:name="unity.auto-report-fully-drawn"
+65-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-57
+66            android:value="true" />
+66-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-33
+67
+68        <activity
+68-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-62:20
+69            android:name="com.unity3d.player.UnityPlayerActivity"
+69-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-66
+70            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+70-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-194
+71            android:exported="true"
+71-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-36
+72            android:hardwareAccelerated="false"
+72-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-48
+73            android:launchMode="singleTask"
+73-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-44
+74            android:resizeableActivity="false"
+74-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-47
+75            android:screenOrientation="fullUser"
+75-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-49
+76            android:theme="@style/UnityThemeSelector" >
+76-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-54
+77            <intent-filter>
+77-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-57:29
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:17-77
+78-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:27-74
+79                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+79-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:17-86
+79-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:27-83
+80
+81                <action android:name="android.intent.action.MAIN" />
+81-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:17-69
+81-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:25-66
+82            </intent-filter>
+83
+84            <meta-data
+84-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-61:40
+85                android:name="unityplayer.UnityActivity"
+85-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:17-57
+86                android:value="true" />
+86-->[:unityLibrary] D:\Desktop\GAME DEV\4Pics 1sang Salita\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:17-37
+87        </activity>
+88
+89        <meta-data
+89-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:23:9-25:37
+90            android:name="com.google.android.play.billingclient.version"
+90-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:24:13-73
+91            android:value="5.1.0" />
+91-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:25:13-34
+92
+93        <activity
+93-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:27:9-31:75
+94            android:name="com.android.billingclient.api.ProxyBillingActivity"
+94-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:28:13-78
+95            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+95-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:29:13-96
+96            android:exported="false"
+96-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:30:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[:billing-5.1.0:] C:\Users\Admin\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\AndroidManifest.xml:31:13-72
+98        <activity
+98-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:14:9-18:74
+99            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+99-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:15:13-74
+100            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+100-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:16:13-170
+101            android:hardwareAccelerated="true"
+101-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:17:13-47
+102            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+102-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:18:13-71
+103        <activity
+103-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:19:9-23:86
+104            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+104-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:20:13-85
+105            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+105-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:21:13-170
+106            android:hardwareAccelerated="true"
+106-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:22:13-47
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+107-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:23:13-83
+108        <activity
+108-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:24:9-28:86
+109            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+109-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:25:13-93
+110            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+110-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:26:13-170
+111            android:hardwareAccelerated="false"
+111-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:27:13-48
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+112-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:28:13-83
+113        <activity
+113-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:29:9-33:74
+114            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+114-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:30:13-82
+115            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+115-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:31:13-170
+116            android:hardwareAccelerated="false"
+116-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:32:13-48
+117            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+117-->[:UnityAds:] C:\Users\Admin\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:33:13-71
+118    </application>
+119
+120</manifest>
